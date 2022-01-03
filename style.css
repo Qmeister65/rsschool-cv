@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+
+.header {
+    display: flex;
+    align-items: start;
+    min-width: 1080px;
+    margin: 10px;
+}
+
+.header__text-h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.header__text-h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.header__text-p {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.header__avatar {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.header__avatar-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    margin: 10px;
+    min-width: 1080px;
+}
+
+.main__text-h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.main__text {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.main__list {
+    padding: 10px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.main__list-contacts {
+    padding: 5px;
+    margin: 20px;
+    line-height: 30px;
+}
+
+.main__list-under {
+    margin-left: 30px;
+}
+
+.main__code {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main__section-education {
+    background-color: aquamarine;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.main__section-skills {
+    background-color: lightseagreen;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.main__section-courses {
+    background-color: coral;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.main__section-language {
+    background-color: gray;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.main__section-code-example {
+    background-color: darkgoldenrod;
+    margin: 10px;
+}
+
+.main__section-projects {
+    background-color: mediumaquamarine;
+    margin: 10px;
+}
+
+.main__section-contacts {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 30px;
+}
+
+.main__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer {
+    height: 60px;
+    width: 1080px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #9ac4ff solid 3px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.footer__year {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__rss {
+    width: 110px;
+    height: 45px;
+    background: url("./img/rss.svg") no-repeat center center;
+    display: inline-block;
+    background-size: contain;
+}
+
+.footer__github {
+    width: 50px;
+    height: 50px;
+    background: url("./img/github.png") no-repeat center center;
+    display: inline-block;
+    background-size: contain;
+}
