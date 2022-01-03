@@ -29,7 +29,7 @@ body {
 .header {
     display: flex;
     align-items: start;
-    border: 5px solid red;
+    min-width: 1080px;
     margin: 10px;
 }
 
@@ -67,8 +67,95 @@ body {
 }
 
 .main {
-    border: 5px solid red;
     margin: 10px;
+    min-width: 1080px;
+}
+
+.main__text-h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.main__text {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.main__list {
+    padding: 10px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.main__list-contacts {
+    padding: 5px;
+    margin: 20px;
+    line-height: 30px;
+}
+
+.main__list-under {
+    margin-left: 30px;
+}
+
+.main__code {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main__section-education {
+    background-color: aquamarine;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.main__section-skills {
+    background-color: lightseagreen;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.main__section-courses {
+    background-color: coral;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.main__section-language {
+    background-color: gray;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.main__section-code-example {
+    background-color: darkgoldenrod;
+    margin: 10px;
+}
+
+.main__section-projects {
+    background-color: mediumaquamarine;
+    margin: 10px;
+}
+
+.main__section-contacts {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 30px;
+}
+
+.main__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .footer {
